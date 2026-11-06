@@ -1,0 +1,49 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "kwtSMS",
+        "description": "Use the API username and password of your kwtSMS account, not your mobile number. {detail}",
+        "data": {
+          "username": "API username",
+          "password": "API password",
+          "numbers": "Phone numbers",
+          "sender": "Sender ID",
+          "test_mode": "Test mode"
+        },
+        "data_description": {
+          "numbers": "International format, separated by commas, for example 965XXXXXXXX. Each number becomes one notify entity.",
+          "sender": "Default KWT-SMS, or a Sender ID registered on your account.",
+          "test_mode": "Messages are queued on kwtSMS but not delivered, and no credits are used."
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "kwtSMS refused the login: {detail}",
+      "cannot_connect": "Cannot reach kwtSMS: {detail}",
+      "invalid_number": "Check the phone numbers: {detail}"
+    },
+    "abort": {
+      "already_configured": "This kwtSMS account is already set up."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "kwtSMS",
+        "description": "{detail}",
+        "data": {
+          "numbers": "Phone numbers",
+          "sender": "Sender ID",
+          "test_mode": "Test mode"
+        },
+        "data_description": {
+          "numbers": "International format, separated by commas. Each number becomes one notify entity."
+        }
+      }
+    },
+    "error": {
+      "invalid_number": "Check the phone numbers: {detail}"
+    }
+  }
+}

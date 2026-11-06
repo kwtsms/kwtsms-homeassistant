@@ -1,0 +1,12 @@
+{
+  "domain": "kwtsms",
+  "name": "kwtSMS",
+  "codeowners": ["@kwtsms"],
+  "config_flow": true,
+  "documentation": "https://github.com/kwtsms/kwtsms-homeassistant",
+  "integration_type": "service",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/kwtsms/kwtsms-homeassistant/issues",
+  "requirements": ["kwtsms[async]>=0.7.41"],
+  "version": "1.0.0"
+}

@@ -13,8 +13,8 @@ the Gulf: alarm, water leak, door left open, power cut.
 
 ## Requirements
 
-- Home Assistant 2024.6 or later.
-- A kwtSMS account with API access. [Sign up free](https://www.kwtsms.com/signup/).
+- Home Assistant 2024.6 or later (tested on 2026.11.0).
+- A kwtSMS account with API access. [Free test account](https://www.kwtsms.com/cportal/signup/).
 
 ## Installation
 

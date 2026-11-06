@@ -14,7 +14,7 @@
         "data_description": {
           "numbers": "International format, separated by commas, for example 965XXXXXXXX. Each number becomes one notify entity.",
           "sender": "Default KWT-SMS, or a Sender ID registered on your account.",
-          "test_mode": "Messages are queued on kwtSMS but not delivered, and no credits are used."
+          "test_mode": "Messages are queued on kwtSMS but not delivered. Their credits are held until you delete them from the Sending Queue in your kwtSMS account."
         }
       }
     },

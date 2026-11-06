@@ -8,7 +8,7 @@ the Gulf: alarm, water leak, door left open, power cut.
 - Set up from the UI: API login, phone numbers, Sender ID, test mode.
 - One notify entity per phone number, used with the standard `notify.send_message` action.
 - Message titles are sent as the first line.
-- English and Arabic. Test mode: queued on kwtSMS, never delivered, no credits used.
+- English and Arabic. Test mode: queued on kwtSMS, never delivered; their credits are held until you delete them from the Sending Queue in your kwtSMS account.
 - Failed sends show the kwtSMS error (for example `ERR010` zero balance) in the automation trace.
 
 ## Requirements

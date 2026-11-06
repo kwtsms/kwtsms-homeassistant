@@ -28,7 +28,7 @@ the Gulf: alarm, water leak, door left open, power cut.
 1. **Settings > Devices & services > Add integration > kwtSMS.**
 2. Enter the API username and password of your kwtSMS account (not your mobile number) and the phone numbers in
    international format, separated by commas, for example `965XXXXXXXX`.
-3. Each number becomes an entity such as `notify.kwtsms_ha_username_sms_965xxxxxxxx`. Change numbers, Sender ID or
+3. Each number becomes an entity such as `notify.sms_965xxxxxxxx`. Change numbers, Sender ID or
    test mode later under **Configure**.
 
 ## Use in an automation
@@ -36,7 +36,7 @@ the Gulf: alarm, water leak, door left open, power cut.
 ```yaml
 action: notify.send_message
 target:
-  entity_id: notify.kwtsms_ha_username_sms_965xxxxxxxx
+  entity_id: notify.sms_965xxxxxxxx
 data:
   title: Water leak
   message: Kitchen sensor is wet.

@@ -3,6 +3,8 @@
 Send SMS from Home Assistant automations through [kwtSMS](https://www.kwtsms.com), the SMS gateway for Kuwait and
 the Gulf: alarm, water leak, door left open, power cut.
 
+All kwtSMS integrations: [kwtsms.com/integrations](https://www.kwtsms.com/integrations/)
+
 ## Features
 
 - Set up from the UI: API login, phone numbers, Sender ID, test mode.

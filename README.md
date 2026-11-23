@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/readme-header-dark.png">
+  <img alt="kwtSMS for Home Assistant" src=".github/assets/readme-header-light.png">
+</picture>
+
 # kwtSMS for Home Assistant
 
 Send SMS from Home Assistant automations through [kwtSMS](https://www.kwtsms.com), the SMS gateway for Kuwait and
